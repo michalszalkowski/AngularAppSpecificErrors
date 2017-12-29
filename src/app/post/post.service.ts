@@ -25,7 +25,7 @@ export class PostService {
           return Observable.throw(new ServerError(error));
         }
 
-        return Observable.throw(new NotFoundError(error));
+        return Observable.throw(new CrazyShitError(error));
 
       });
   }
